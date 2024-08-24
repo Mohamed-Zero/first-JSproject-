@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/all.css">
+
+ </head>
+ <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ZERO  GROUP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" id="profile" href="userInfo.html">Pofile</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-light" id="link1" href="login.html">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light " id="link2" href="regestier.html" tabindex="-1" aria-disabled="true">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light "  href="login.html" tabindex="-1" aria-disabled="true">Sign Out</a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="section-cart" >
+    <div class="container">
+      <div class="allItems row mt-5 " id="allItems">
+        <!-- <div class="item col  col-sm-6 col-md-4 col-lg-3  m-auto " id="item">
+                <div class="card cardI mt-3" style="width: 18rem;">
+                  <img src="${item.ImageUrl}" class="card-img-top" alt="#">
+                  <div class="card-body">
+                    <h5 class="card-title">Product :${item.Pname} </h5>
+                    <p class="card-text">Price:${item.Price} </p>
+                    <p class="card-text">Category:${item.category} </p>
+                    <div class="btns">
+                      <button class="btn btn-secondary addquan" >+</button>
+                      <span class="quantity">1</span>
+                      <button class="btn btn-secondary removequan" >-</button>
+                      <button class=" btn btn-danger remove ">remove </button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- ///////////////////////////////////////////////////////// -->
+   <section>
+    <div class="container text-center mt-5 mb-4" id="totalP" style="display: none;" >
+        <button class="btn btn-primary rounded text-center " >total price</button>
+        <div class="showP" id="showPr"  >
+           <h2 style="display: inline;">Your total Price is : </h2>
+           <h3 id="num" style="display: inline;"></h3>
+        </div>
+    </div>
+   </section>
+  <!-- ////////////////////////////////////////////////////////// -->
+  <script src="js/user.js"></script>
+  <script src="js/cart.js"></script>
+
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+  </html>
